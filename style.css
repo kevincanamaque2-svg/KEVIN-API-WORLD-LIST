@@ -1,0 +1,29 @@
+/* Update your style.css with this */
+body {
+    font-family: sans-serif;
+    background-color: #f0f2f5;
+    padding: 20px;
+}
+
+#data-container {
+    display: grid !important; /* Adding !important forces the grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) !important;
+    gap: 20px !important;
+}
+
+.country-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+#search-bar {
+    width: 90%;
+    padding: 15px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
